@@ -7,7 +7,7 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {   
-            Console.WriteLine("Pierwszy commit");
+            Console.WriteLine("Moddyfikacja 1");
             
         }
     }
