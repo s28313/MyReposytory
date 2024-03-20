@@ -11,14 +11,15 @@ namespace ConsoleApplication1
             
         }
 
-        public static double max(int[] arr)
+        public static double average(int[] a)
         {
-            int result = 0;
-            
-            for (int i = 0; i < arr.Length; i++)
+            double result = 0.0;
+
+            for (int i = 0; i < a.Length; i++)
             {
-                if (arr[i] > result) result = arr[i];
+                result += a[i];
             }
+            result /= a.Length;
             
             return result;
         }
