@@ -10,16 +10,16 @@ namespace ConsoleApplication1
             Console.WriteLine("Moddyfikacja 3");
             
         }
-        
-        public static double averageXD(int[] arr)
+
+        public static double average(int[] a)
         {
             double result = 0.0;
 
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < a.Length; i++)
             {
-                result += arr[i];
+                result += a[i];
             }
-            result /= arr.Length;
+            result /= a.Length;
             
             return result;
         }
